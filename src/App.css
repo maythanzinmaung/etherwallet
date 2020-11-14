@@ -1,0 +1,74 @@
+
+.formcontainer{
+  margin: auto;
+  background-color:transparent;
+  width: 480px;
+  border: 1.5px solid;
+  padding: 50px;
+  padding-bottom: 0px;
+  
+}
+.bgcontainer{
+  background-image: url(https://www.exodus.io/img/header-bg/header-bg-2400.jpg);
+}
+
+.title{
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+  
+}
+.mainPage{
+  position: absolute;
+  left:500px;
+  right:100px;
+}
+.inputField{
+  width:100%;
+  border:none;
+  border-color:red;
+  border-bottom: 1.5px solid;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  
+}
+
+.inputField:focus{
+  outline: none;
+}
+.button{
+  width: 100%;
+  height: 100;
+  border-radius: 8px;
+  background-color: blue;
+  
+}
+.ether{
+  display: flex;
+  align-items: center;
+
+}
+.logOut{
+  justify-content: end;
+}
+.pending{
+  margin-block-start: 30px;
+padding-block-start: 120px;
+}
+.pendingheader{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pendingbutton{
+  size: 20px;
+  
+}
+.pending-body{
+  display:list-item;
+  align-items: center;
+  justify-content: space-between;
+  color: darkblue;
+  padding: 10px;
+  font-size: 19px;
+  
+}

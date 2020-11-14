@@ -1,0 +1,87 @@
+.popup {
+
+  position: relative;
+  border-radius: 5%;
+  width: 400px;
+  height: 550px;
+  top: "50%";
+  left: "50%";
+  margin-left: -100px;
+  margin-top: -150px;
+  opacity:1;
+  /* margin: 0 auto; */
+  background-color: #90a4ae;
+  
+}
+.inner {
+  padding: 20px;
+}
+.title{
+  font-size: 28px;
+}
+.select {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+.receiverInput {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+.sender {
+  margin-top: 20px;
+  margin-block-end: 40px;
+}
+.receiver {
+  margin-block-end: 40px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-block-start: 30px;
+  background-color: #90a4ae
+}
+.receiverInput {
+  margin-right: 50px;
+  margin-left: 30px;
+}
+.error {
+  margin-right: 50px;
+  margin-left: 30px;
+  color: brown;
+}
+.confirmpage{
+  display: flex;
+  align-items: center;
+}
+.swal-title{
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(13, 91, 194);
+}
+.swal-input{
+  height: 40px;
+  border:none;
+
+}
+.swal-input:focus{
+    outline: none;
+}
+.swal-button{
+  size: 30px;
+}
+.label{
+  font-size: medium;
+  font-weight: bold;
+}
+.swal-body{
+  padding-block-end: 40px;
+  color: darkolivegreen;
+}
+.swal-html{
+  color:aqua
+}
